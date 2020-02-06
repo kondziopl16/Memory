@@ -1,0 +1,83 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #209781;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: #209781; text-decoration: none; }
+a:visited { color: #209781; }
+a:active  { color: #209781; }
+a:hover   { color: #E9B64A; }
+
+
+#header
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+
+#karty
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.card
+{
+	width:125px;
+	height:125px;
+	background-image:url("img/karta.png");
+	display:inline-block;
+	margin:5px;
+	border:2px solid #209781;
+	border-radius:5px;
+	opacity:100;
+	transition:all .3s ease-in-out;
+	
+}
+
+.card:hover
+{
+	width:125px;
+	height:125px;
+	background-image:url("img/karta.png");
+	display:inline-block;
+	margin:5px;
+	border:2px solid #ffcc5c;
+	border-radius:5px;
+	opacity:100;
+	cursor:pointer;
+}
+
+.cardA
+{
+	width:125px;
+	height:125px;
+	background-image:url("img/karta.png");
+	display:inline-block;
+	margin:5px;
+	border:2px solid #209781;
+	border-radius:5px;
+	opacity:0;
+	transition:all .3s ease-in-out;
+}
+
+
+
+#wynik
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.board
+{
+	color:white;
+}
